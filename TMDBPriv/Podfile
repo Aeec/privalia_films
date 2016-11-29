@@ -1,0 +1,25 @@
+
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'TMDBPriv' do
+    pod 'Alamofire', '~> 4.0'
+    pod 'AlamofireImage', '~> 3.1'
+    pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+    
+end
+
+target 'TMDBPrivTests' do
+    pod 'Alamofire', '~> 4.0'
+    pod 'AlamofireImage', '~> 3.1'
+    pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+    
+end
+target 'TMDBPrivUITests' do
+    pod 'Alamofire', '~> 4.0'
+    pod 'AlamofireImage', '~> 3.1'
+    pod 'ReachabilitySwift', git: 'https://github.com/ashleymills/Reachability.swift'
+
+end

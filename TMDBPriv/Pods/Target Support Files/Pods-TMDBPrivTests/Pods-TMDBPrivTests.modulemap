@@ -1,0 +1,6 @@
+framework module Pods_TMDBPrivTests {
+  umbrella header "Pods-TMDBPrivTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
